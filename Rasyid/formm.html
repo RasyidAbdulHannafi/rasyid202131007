@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORM</title>
+</head>
+<body>
+	<h1>form </h1>
+	<form>
+		<fieldset>
+			<legend> Form Pendaftaran </legend>
+			<table>
+				<tr>
+					<td><label>Name</label></td>
+					<td>:</td>
+					<td><input type="text" autofocus name="Name" placeholder="Mohon Isi Nama"></td>
+				</tr>
+
+					
+				<tr>
+					<td><label>Email</label></td>
+					<td>:</td>
+					<td><input type="Email" autocomplete="off" placeholder="Mohon Isi Email" name="Email"></td>
+				</tr>
+
+
+				<tr>
+					<td><label>Tempat Lahir</label></td>
+					<td>:</td>
+					<td><input type="text" placeholder="Mohon Isi Tempat Lahir" type"Tempat_Lahir"></td>
+				</tr>
+
+
+				<tr>
+					<td><label>Tanggal Lahir</label></td>
+					<td>:</td>
+					<td><input required type="date" autofocus name="Tanggal_Lahir"></td>
+				</tr>
+
+
+				<tr>
+					<td><label>Employed ID</label></td>
+					<td>:</td>
+					<td><input type="text" name="empid"
+					placeholder="Mohon isi Employee ID" 
+					required pattern="[A-Z]" title="capital digits"></td>
+				</tr>
+
+
+				<tr>
+					<td><label>Jumlah Saudara </label></td>
+					<td>:</td>
+					<td><input required min="0" placeholder="Mohon Isi Jumlah Saudara" name=""></td>
+				</tr>
+
+
+				<tr>
+					<td colspan="2"></td>
+					<td><input type="submit" value="Daftar"></td>
+				</tr>
+
+
+			</table>
+		</fieldset>
+	</form>
+</body>
+</html>
